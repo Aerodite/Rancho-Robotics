@@ -5,3 +5,5 @@ Main lanuages are C++, Python, and Javascript
 Code Manager: Anthony Garcia Roman
 
 Javascript Coder: Brian
+
+Jaiden: meme
