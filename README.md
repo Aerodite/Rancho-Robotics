@@ -6,4 +6,4 @@ Code Manager: Anthony Garcia Roman
 
 Javascript Coder: Brian
 
-Jaiden: meme
+Jaiden: Doing most of the mechanical work, e.g. lidar senors and cameras.
