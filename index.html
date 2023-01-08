@@ -8,21 +8,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
 </head>
 <body>
 <section class="header"> 
     <nav>
       <a href="index.html"><img src="https://i.imgur.com/TTZHfW2.png"></a>  
-        <div class="nav-links">
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul> 
                 <li><a href="">HOME></a></li>
                 <li><a href="">GITHUB></a></li>
                 <li><a href="">ATTENDANCE></a></li>
 *           </ul>
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
     
+    <div class="text-box"></div>
+    <h1>Rancho! You know!</h1>
+    <p>In Rancho Robotics, we are working to make THE winning robot for the FIRST® Robotics Competition</p>
+    <a href="" class="hero-btn">Visit the FIRST® Robotics website for more details.</a>
 </section>
+<!------Javascript for Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+
 </body>
 </html>
  
