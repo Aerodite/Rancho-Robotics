@@ -1,5 +1,17 @@
 ﻿body{
     margin: 0;
-    background: white;
+    background: black;
     text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/frc/event-experience.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
