@@ -23,7 +23,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -43,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673151653397</updated>
       <workItem from="1673151655663" duration="414000" />
-      <workItem from="1673152882405" duration="2979000" />
+      <workItem from="1673152882405" duration="8010000" />
     </task>
     <servers />
   </component>
