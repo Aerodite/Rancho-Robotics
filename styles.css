@@ -5,7 +5,9 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(https://imgur.com/17526f26-22c3-4803-b206-93534fc29edc);
+    background-image: 
+            linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(https://i.imgur.com/D3A8BkF.jpg);
+    
     background-position: center;
     background-size: cover;
     position: relative;
