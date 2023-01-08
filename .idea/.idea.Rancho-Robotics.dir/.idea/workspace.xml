@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cf00a631-f120-4f21-bd13-9a10c706519f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Rancho-Robotics.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rancho-Robotics.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +45,7 @@
       <updated>1673151653397</updated>
       <workItem from="1673151655663" duration="414000" />
       <workItem from="1673152882405" duration="8010000" />
-      <workItem from="1673169731218" duration="4453000" />
+      <workItem from="1673169731218" duration="4992000" />
     </task>
     <servers />
   </component>
