@@ -42,7 +42,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #476df3;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -79,8 +79,8 @@ nav img{
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
+    border: 1px solid #476df3;
+    background: #476df3;
     transition: 1s;
 }
 
@@ -97,7 +97,7 @@ nav .fa{
 
     .nav-links {
         position: absolute;
-        background: #f44336;
+        background: #476df3;
         height: 100vh;
         width: 200px;
         top: 0;
