@@ -1,4 +1,6 @@
-﻿<html>
+﻿<!---If anyone wants to complain about my code, my bad, I've never coded in HTML or CSS before, I hope its good enough to look somewhat pretty!--->
+
+<html>
 <head>
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -21,7 +23,7 @@
             <ul> 
                 <li><a href="">HOME</a></li>
                 <li><a href="https://github.com/Aerodite/Rancho-Robotics">GITHUB</a></li>
-                <li><a href="">ATTENDANCE</a></li>
+                <li><a href="https://forms.gle/6HL7R7XDLSvMdeWx6">ATTENDANCE</a></li>
            </ul>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </div>
@@ -30,9 +32,19 @@
     <div class="text-box">
     <h1>Rancho! You know!</h1>
     <p>In Rancho Robotics, we are working to make THE winning robot for the FIRST® Robotics Competition</p>
-    <a href="https://firstnevada.org/programs/first-robotics-competition/" class="hero-btn">Visit the FIRST® Robotics Nevada website for more details.</a>
     </div>
-
+<div class="container">
+    <div class="center">
+        <button class="hero-btn">
+            <svg width="550px" height="50px" viewBox="0 0 550 50" class="border">
+                <polyline points="549,1 549,49 1,49 1,1 549,1" class="bg-line" />
+                <polyline points="549,1 549,49 1,49 1,1 549,1" class="hl-line" />
+            </svg>
+            <!---I don't know why it won't let me put the <a href=> into the <span> class, I am very sorry, this makes this part look really shitty. Sincerely, The First Code Manager - Anthony--->
+            <a href="https://firstnevada.org/programs/first-robotics-competition"><span>Visit the FIRST® Robotics Nevada website for more details</span></a>
+        </button>
+    </div>
+</div>
 <!------Javascript for Toggle Menu------>
 <script>
     var navLinks = document.getElementById("navLinks");
