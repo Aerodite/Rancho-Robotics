@@ -25,8 +25,8 @@
                 <li><a href="https://github.com/Aerodite/Rancho-Robotics">GITHUB</a></li>
                 <li><a href="https://forms.gle/6HL7R7XDLSvMdeWx6">ATTENDANCE</a></li>
            </ul>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
 </section>
     <div class="text-box">
@@ -35,13 +35,14 @@
     </div>
 <div class="container">
     <div class="center">
-        <button class="hero-btn">
+        <!--Why the fuck does the button only work when putting an onclick function here???? Shouldn't the <a> function in the text line do that????????
+        I am very unsatisfied with this solution, to any future code managers, please fix!-->
+        <button type="button" class="hero-btn" id="add invoice" onclick="window.location.href='https://firstnevada.org/programs/first-robotics-competition/';">
             <svg width="550px" height="50px" viewBox="0 0 550 50" class="border">
                 <polyline points="549,1 549,49 1,49 1,1 549,1" class="bg-line" />
                 <polyline points="549,1 549,49 1,49 1,1 549,1" class="hl-line" />
+                <span>Visit the FIRST® Robotics Nevada website for more details</span>
             </svg>
-            <!---I don't know why it won't let me put the <a href=> into the <span> class, I am very sorry, this makes this part look really shitty. Sincerely, The First Code Manager - Anthony--->
-            <a href="https://firstnevada.org/programs/first-robotics-competition"><span>Visit the FIRST® Robotics Nevada website for more details</span></a>
         </button>
     </div>
 </div>

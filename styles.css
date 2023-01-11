@@ -125,14 +125,14 @@ svg {
 nav .fa{
     display: none;
 }
-@media(max-width: 700px){
+/* Dude, making the button work on mobile is a pain in the ass, I do not want to try implementing it again. Consider this a warning. */
+@media screen and (max-width: 750px){
     .text-box h1{
         font-size: 20px;
     }
     .nav-links ul li{
         display: block;
     }
-
     .nav-links {
         position: fixed;
         background: #476df3;
@@ -160,4 +160,5 @@ nav .fa{
 p{
     text-align: center;
 }
+
 
