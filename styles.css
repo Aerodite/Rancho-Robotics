@@ -156,6 +156,31 @@ nav .fa{
         padding: 30px;
         
     }
+    .hero-btn{
+        display: block;
+        max-width: 65vh;
+        max-height: 8vh;
+    }
+    .border{
+        display:block;
+        max-width: 65vh;
+        max-height: 7.5vh;
+    }
+    .container{
+        display:block;
+        max-width: 65vh;
+        max-height: 8vh;
+    }
+    .bg-line{
+        display:block;
+        max-width: 65vh;
+        max-height: 10vh;
+    }
+    .hl-line{
+        display:block;
+        max-width: 65vh;
+        max-height: 10vh;
+    }
 }
 p{
     text-align: center;
