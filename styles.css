@@ -68,9 +68,9 @@ nav img{
     color: #fff;
 }
 /* Code below is for shiny fun button that redirects to FIRST Robotics, please don't touch it, future me */
-.container {
+.container1 {
     width: 600px;
-    height: 400px;
+    height: 50px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -80,13 +80,13 @@ nav img{
     align-items: center;
 }
 
-.center {
+.center1 {
     width: 550px;
     height: 50px;
     position: absolute;
 }
 
-.hero-btn {
+.hero-btn1 {
     width: 550px;
     height: 50px;
     cursor: pointer;
@@ -96,7 +96,7 @@ nav img{
     transition: 1s ease-in-out;
 }
 
-svg {
+.border1{
     position: absolute;
     left: 0;
     top: 0;
@@ -107,16 +107,69 @@ svg {
     transition: 1s ease-in-out;
 }
 
-.hero-btn:hover {
+.hero-btn1:hover {
+    transition: 1s ease-in-out;
+    background: #005a17;
+}
+
+.hero-btn1:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.hero-btn1 .span1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+.container2 {
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center2 {
+    width: 550px;
+    height: 50px;
+    position: absolute;
+}
+
+.hero-btn2 {
+    width: 550px;
+    height: 50px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #0083ff;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+.border2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.hero-btn2:hover {
     transition: 1s ease-in-out;
     background: #003569;
 }
 
-.hero-btn:hover svg {
+.hero-btn2:hover svg {
     stroke-dashoffset: -480;
 }
 
-.hero-btn span {
+.hero-btn2 .span2 {
     color: white;
     font-size: 18px;
     font-weight: 100;
