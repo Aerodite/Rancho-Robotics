@@ -179,10 +179,12 @@ nav .fa{
     display: none;
 }
 /* Dude, making the button work on mobile is a pain in the ass, I do not want to try implementing it again. Consider this a warning. */
-@media screen and (max-width: 750px){
+@media screen and (max-width: 870px){
     .text-box h1{
-        font-size: 20px;
-    }
+        font-size: 25px;}
+    .logo{
+    height: 20vh;
+    width: 20vh;}
     .nav-links ul li{
         display: block;
     }
@@ -204,36 +206,33 @@ nav .fa{
         font-size: 22px;
         cursor: pointer;
         
-    }
+    }/* dealing with this later :(
+
     .nav-links ul{
-        padding: 30px;
+        padding: 0px;
         
     }
-    .hero-btn{
-        display: block;
-        max-width: 65vh;
-        max-height: 8vh;
+    .hero-btn1{
+        max-width: 25vh;
+        max-height: 65vh;
     }
-    .border{
-        display:block;
-        max-width: 65vh;
-        max-height: 7.5vh;
+    .border1{
+        max-width: 25vh;
+        max-height: 65vh;
     }
-    .container{
-        display:block;
-        max-width: 65vh;
-        max-height: 8vh;
+    .container1{
+        max-width: 25vh;
+        max-height: 65vh;
     }
-    .bg-line{
-        display:block;
-        max-width: 65vh;
-        max-height: 10vh;
+    .bg-line1 {
+        max-width: 25vh;
+        max-height: 65vh;
     }
-    .hl-line{
-        display:block;
-        max-width: 65vh;
-        max-height: 10vh;
+    .hl-line1{
+        max-width: 25vh;
+        max-height: 65vh;
     }
+    */
 }
 p{
     text-align: center;
