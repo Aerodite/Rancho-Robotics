@@ -4,6 +4,7 @@
 
 
 using namespace std;
+#define UNIT_LIB_DISABLE_IOSTREAM
 #include <units.h>
 
 using namespace units::literals;
@@ -49,8 +50,11 @@ using namespace units::literals;
 #include <units/voltage.h>
 #include <units/volume.h>
 
-class Controller {
-
+class Movement {
+private:
+    frc::Spark m_left{1};
+    frc::Spark m_right{2};
+    frc::DifferentialDrive m_drive{m_left, m_right};
 };
 
 
