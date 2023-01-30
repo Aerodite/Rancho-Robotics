@@ -206,34 +206,57 @@ nav .fa{
         font-size: 22px;
         cursor: pointer;
         
-    }/* dealing with this later :(
+    }
 
-    .nav-links ul{
+    .nav-links ul {
         padding: 0px;
-        
+
     }
     .hero-btn1{
-        max-width: 25vh;
+        max-width: 45vh;
         max-height: 65vh;
-    }
+    position: center;}
     .border1{
-        max-width: 25vh;
+        max-width: 45vh;
         max-height: 65vh;
+        position: center;
     }
     .container1{
-        max-width: 25vh;
+        max-width: 45vh;
         max-height: 65vh;
+        position: center;
     }
     .bg-line1 {
-        max-width: 25vh;
+        max-width: 45vh;
         max-height: 65vh;
+        position: center;
     }
     .hl-line1{
-        max-width: 25vh;
+        max-width: 45vh;
+        max-height: 65vh;
+        position: center;
+    }
+    .hero-btn2{
+        max-width: 45vh;
+        max-height: 65vh;}
+    .border2{
+        max-width: 45vh;
         max-height: 65vh;
     }
-    */
+    .container2{
+        max-width: 45vh;
+        max-height: 65vh;
+    }
+    .bg-line2{
+        max-width: 45vh;
+        max-height: 65vh;
+    }
+    .hl-line2{
+        max-width: 45vh;
+        max-height: 65vh;
+    }
 }
+
 p{
     text-align: center;
 }
