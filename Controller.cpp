@@ -5,9 +5,9 @@
 #include <units.h>
 using namespace units::literals;
 
-frc::PWMVictorSPX m_leftMotor{Constants::kLeftMotorPort};
-frc::PWMVictorSPX m_rightMotor{Constants::kRightMotorPort};
+frc::PWMVictorSPX m_leftMotor{units::constants::kLeftMotorPort};
+frc::PWMVictorSPX m_rightMotor{units::constants::kRightMotorPort};
 frc::DifferentialDrive m_robotDrive{m_leftMotor, m_rightMotor};
-frc::GenericHID m_stick{Constants::kJoystickPort};
+frc::GenericHID m_stick{units::constants::kJoystickPort};
 
 m_robotDrive.ArcadeDrive(-m_stick.GetRawAxis(0), m_stick.GetRawAxis(1));
