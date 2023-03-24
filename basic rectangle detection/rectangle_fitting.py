@@ -1,10 +1,10 @@
 import sys
 import pathlib
-sys.path.append(str(pathlib.Path(__file__).parent.parent.parent))
-
 import matplotlib.pyplot as plt
 import numpy as np
 import itertools
+sys.path.append(str(pathlib.Path(__file__).parent.parent.parent))
+
 from enum import Enum
 
 from utils.angle import rot_mat_2d
