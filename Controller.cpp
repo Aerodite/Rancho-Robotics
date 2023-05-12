@@ -3,7 +3,9 @@
 //
 #include "Controller.h"
 #include <units.h>
+#include <frc>
 using namespace units::literals;
+using namespace frc;
 
 frc::PWMVictorSPX m_leftMotor{units::constants::kLeftMotorPort};
 frc::PWMVictorSPX m_rightMotor{units::constants::kRightMotorPort};

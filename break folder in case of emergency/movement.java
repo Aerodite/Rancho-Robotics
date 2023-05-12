@@ -14,7 +14,7 @@ public class movement extends Robot
     Joystick            stick;
 
     /**
-     * Constructor. Called once when this class is created.
+     * Robot constructor class
      */
     public movement()
     {
@@ -58,7 +58,8 @@ public class movement extends Robot
     {
         System.out.println("Robot.autonomous()");
 
-        robotDrive.setSafetyEnabled(false);     // motor safety off due to the fact
+        robotDrive.setSafetyEnabled(false);     
+        // motor safety off due to the fact
         // we want the motor to run 2 sec
         // with no other input.
 
